@@ -1,5 +1,11 @@
-import React from "react"
+import React, { Fragment } from "react"
+import "../styles/global.css"
+import { Navbar } from "../components/navbar"
 
-const IndexPage = () => <div />
+const IndexPage = () => (
+  <Fragment>
+    <Navbar />
+  </Fragment>
+)
 
 export default IndexPage

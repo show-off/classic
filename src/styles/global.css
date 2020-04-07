@@ -1,0 +1,16 @@
+/* normalizes the CSS across browsers */
+@import url("../../node_modules/normalize.css/normalize.css");
+
+/* fonts used in show-off */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* sets the gatsby wrappers' dimensions to 100% to make use of the whole screen */
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: gray;
+}
