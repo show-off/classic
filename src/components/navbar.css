@@ -28,20 +28,20 @@ nav#navbar .navbar-right ul {
   list-style: none;
   height: 100%;
   margin: 0;
-  align-items: flex-end;
+  align-items: center;
 }
 
 nav#navbar .navbar-right ul li {
-  padding: 0 5px 5px 5px;
+  padding: 5px 5px 0 5px;
 }
 
 nav#navbar a {
   text-decoration: none;
-  color: #000;
+  transition: 500ms;
+  color: #444;
 }
 
-nav#navbar ul li a:hover,
+nav#navbar a:hover,
 nav#navbar a.active {
   color: #000;
-  font-weight: 400;
 }
