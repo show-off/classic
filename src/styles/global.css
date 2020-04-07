@@ -13,6 +13,14 @@ body,
   width: 100%;
 }
 
+a:active,
+a:focus {
+  outline: 0;
+  outline-style: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -moz-outline-style: none;
+}
+
 html,
 button {
   font-family: "Roboto", sans-serif;
