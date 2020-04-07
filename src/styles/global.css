@@ -2,7 +2,7 @@
 @import url("../../node_modules/normalize.css/normalize.css");
 
 /* fonts used in show-off */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 
 /* sets the gatsby wrappers' dimensions to 100% to make use of the whole screen */
 html,
@@ -11,6 +11,28 @@ body,
 #gatsby-focus-wrapper {
   height: 100%;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
-  background-color: gray;
+}
+
+html,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+button {
+  background: white;
+  padding: 15px;
+  outline: none;
+  border: 1px #777 solid;
+  transition-duration: 1s;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  border: 1px #000 solid;
+}
+
+.text-center {
+  text-align: center;
 }
