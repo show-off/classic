@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Show Off`,
-    description: `Beautiful-as-fuck website portfolio templates`,
+    title: `Show Off - Classic`,
+    description: `Classic template from the Show Off portfolio template series`,
     author: `Siddharth Venu`,
   },
+  pathPrefix: `/classic`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
