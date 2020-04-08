@@ -4,6 +4,9 @@
 /* fonts used in show-off */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 
+/* material icons by google */
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
 /* sets the gatsby wrappers' dimensions to 100% to make use of the whole screen */
 html,
 body,
@@ -14,7 +17,9 @@ body,
 }
 
 a:active,
-a:focus {
+a:focus,
+button:active,
+button:focus {
   outline: 0;
   outline-style: none;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
@@ -28,12 +33,32 @@ button {
 }
 
 button {
+  display: flex;
+  align-items: center;
   background: white;
   padding: 15px;
   outline: none;
   border: 1px #777 solid;
   transition-duration: 1s;
   border-radius: 10px;
+}
+
+button.icon-button span {
+  max-width: 0;
+  -webkit-transition: max-width 1s;
+  transition: max-width 1s;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+button.icon-button:hover span {
+  max-width: 7rem;
+}
+
+button.icon-button:hover {
+  padding: 15px 7.5px 15px 15px;
 }
 
 button:hover {

@@ -13,7 +13,7 @@ export const Navbar = () => {
   return (
     <nav id="navbar">
       <div className="navbar-left">
-        <a href="#">Siddharth Venu</a>
+        <a href="#intro">Siddharth Venu</a>
       </div>
       <div className="navbar-right">
         <ul>

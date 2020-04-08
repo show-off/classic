@@ -8,6 +8,8 @@ export const Intro = () => (
       <br />
       Architect of beautiful UIs.
     </p>
-    <button className="outline">Who are you?</button>
+    <button className="outline icon-button">
+      Who are you?<span className="material-icons">arrow_drop_down</span>
+    </button>
   </section>
 )
