@@ -40,7 +40,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://$GH_TOKEN@github.com/show-off/classic.git",
+    "deploy": "./deploy.sh",
     "format": "prettier --write \"**/*.{css,ts,tsx,js,jsx,json}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
