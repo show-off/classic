@@ -1,0 +1,13 @@
+:root {
+  /* color palette */
+  --primary-color: #e65100;
+  --primary-dark-color: #bf360c;
+
+  /* colors used in components and pages */
+  --navbar-background-color: white;
+  --navbar-text-color: black;
+  --navbar-text-highlight-color: var(--primary-dark-color);
+
+  --button-text-color: white;
+  --button-background-color: var(--primary-color);
+}

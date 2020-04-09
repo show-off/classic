@@ -1,8 +1,9 @@
 import React from "react"
 import "./navbar.css"
 
-export const Navbar = () => {
+export const Navbar = ({ currentSection }: { currentSection: string }) => {
   const menuOptions = [
+    { name: "Home", url: "#intro" },
     { name: "About Me", url: "#about" },
     { name: "Technologies", url: "#technologies" },
     { name: "Experience", url: "#experience" },
@@ -20,7 +21,12 @@ export const Navbar = () => {
           {menuOptions.map(menuOption => {
             return (
               <li>
-                <a href={menuOption.url}>{menuOption.name}</a>
+                <a
+                  className={menuOption.name === currentSection ? "active" : ""}
+                  href={menuOption.url}
+                >
+                  {menuOption.name}
+                </a>
               </li>
             )
           })}

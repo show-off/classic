@@ -7,6 +7,9 @@
 /* material icons by google */
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
+/* colors used in the page */
+@import url("./colors.css");
+
 /* sets the gatsby wrappers' dimensions to 100% to make use of the whole screen */
 html,
 body,
@@ -35,17 +38,23 @@ button {
 button {
   display: flex;
   align-items: center;
-  background: white;
+  background: var(--button-background-color);
+  color: var(--button-text-color);
   padding: 15px;
   outline: none;
-  border: 1px #777 solid;
+  border: 0px transparent solid;
   transition-duration: 1s;
   border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 button.icon-button span {
   max-width: 0;
   -webkit-transition: max-width 1s;
+  color: var(--button-text-color);
   transition: max-width 1s;
   display: inline-block;
   vertical-align: top;
@@ -59,11 +68,6 @@ button.icon-button:hover span {
 
 button.icon-button:hover {
   padding: 15px 7.5px 15px 15px;
-}
-
-button:hover {
-  cursor: pointer;
-  border: 1px #000 solid;
 }
 
 .text-center {

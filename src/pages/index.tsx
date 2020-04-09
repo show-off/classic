@@ -5,7 +5,7 @@ import { Intro } from "../components/intro"
 
 const IndexPage = () => (
   <Fragment>
-    <Navbar />
+    <Navbar currentSection="Home" />
     <Intro />
   </Fragment>
 )
