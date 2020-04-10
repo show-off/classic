@@ -20,7 +20,7 @@ export const Navbar = ({ currentSection }: { currentSection: string }) => {
         <ul>
           {menuOptions.map(menuOption => {
             return (
-              <li>
+              <li key={menuOption.url}>
                 <a
                   className={menuOption.name === currentSection ? "active" : ""}
                   href={menuOption.url}

@@ -1,0 +1,4 @@
+---
+exclude_paths:
+  - 'LICENSE.md'
+  - 'gatsby-config.js'
