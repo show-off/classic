@@ -17,6 +17,8 @@ body,
 #gatsby-focus-wrapper {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth !important;
 }
 
 a:active,
@@ -30,46 +32,26 @@ button:focus {
 }
 
 html,
-button {
+button,
+a.button {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
-button {
-  display: flex;
-  align-items: center;
-  background: var(--button-background-color);
-  color: var(--button-text-color);
-  padding: 15px;
-  outline: none;
-  border: 0px transparent solid;
-  transition-duration: 1s;
-  border-radius: 10px;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-button.icon-button span {
-  max-width: 0;
-  -webkit-transition: max-width 1s;
-  color: var(--button-text-color);
-  transition: max-width 1s;
-  display: inline-block;
-  vertical-align: top;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-button.icon-button:hover span {
-  max-width: 7rem;
-}
-
-button.icon-button:hover {
-  padding: 15px 7.5px 15px 15px;
-}
-
 .text-center {
   text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.direction-row {
+  flex-direction: row;
+}
+
+.direction-column {
+  flex-direction: column;
 }

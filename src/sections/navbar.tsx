@@ -14,7 +14,7 @@ export const Navbar = ({ currentSection }: { currentSection: string }) => {
   return (
     <nav id="navbar">
       <div className="navbar-left">
-        <a href="#intro">Siddharth Venu</a>
+        <a href="#intro">John Smith</a>
       </div>
       <div className="navbar-right">
         <ul>

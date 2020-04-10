@@ -10,4 +10,10 @@
 
   --button-text-color: white;
   --button-background-color: var(--primary-color);
+
+  --outline-button-text-color: var(--primary-dark-color);
+  --outline-button-background-color: white;
+  --outline-button-border-color: var(--primary-color);
+
+  --heading-text-color: var(--primary-color);
 }

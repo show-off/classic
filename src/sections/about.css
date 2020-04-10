@@ -1,0 +1,15 @@
+section#about {
+  height: 100vh;
+  width: 100vw;
+}
+
+section#about img#person-photo {
+  height: 75%;
+  width: 40%;
+  object-fit: cover;
+}
+
+section#about #about-content {
+  height: 65%;
+  width: 40%;
+}

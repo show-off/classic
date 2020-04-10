@@ -1,5 +1,6 @@
 import React from "react"
 import "./intro.css"
+import { Button } from "../components/button"
 
 export const Intro = () => (
   <section id="intro">
@@ -8,8 +9,8 @@ export const Intro = () => (
       <br />
       Architect of beautiful UIs.
     </p>
-    <button className="outline icon-button">
+    <Button className="icon-button" href="#about">
       Who are you?<span className="material-icons">arrow_drop_down</span>
-    </button>
+    </Button>
   </section>
 )

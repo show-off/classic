@@ -1,0 +1,5 @@
+h1.heading {
+    color: var(--heading-text-color);
+    font-weight: 300;
+    margin: 0px;
+}
