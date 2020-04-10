@@ -20,4 +20,4 @@ In short, the CLA gives the right to [me](https://github.com/sidvenu) to use the
 
 ## License
 
-Show Off - Classic template (the current repository) is licensed with the [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://creativecommons.org/licenses/by-nc/4.0/legalcode). You can also find the [license in this repository](https://github.com/sidvenu/show-off/blob/master/LICENSE.md).
+Show Off - Classic template (the current repository) is licensed with the [GNU Affero General Public License v3.0 or later](https://www.gnu.org/licenses/agpl-3.0.txt). You can also find the [license in this repository](https://github.com/sidvenu/show-off/blob/master/LICENSE).

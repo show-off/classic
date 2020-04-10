@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/sidvenu/show-off"
   },
-  "license": "CC-BY-NC-4.0",
+  "license": "AGPL-3.0-or-later",
   "author": "Siddharth Venu <siddharthvvenu@gmail.com>",
   "scripts": {
     "build": "npm run format && gatsby build",
