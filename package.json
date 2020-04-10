@@ -1,9 +1,35 @@
 {
   "name": "show-off",
+  "version": "0.1.0",
   "private": true,
   "description": "Beautiful-as-fuck website portfolio templates",
-  "version": "0.1.0",
+  "keywords": [
+    "portfolio",
+    "template",
+    "website",
+    "beautiful"
+  ],
+  "bugs": {
+    "url": "https://github.com/sidvenu/show-off/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidvenu/show-off"
+  },
+  "license": "CC-BY-NC-4.0",
   "author": "Siddharth Venu <siddharthvvenu@gmail.com>",
+  "scripts": {
+    "build": "npm run format && gatsby build",
+    "clean": "gatsby clean",
+    "deploy": "./deploy.sh",
+    "develop": "gatsby develop",
+    "format": "npm run sortJson && prettier --write \"**/*.{css,ts,tsx,js,jsx,json}\"",
+    "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
+    "serve": "gatsby serve",
+    "sortJson": "npx sort-package-json && npx sort-package-json tsconfig.json",
+    "start": "npm run develop",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
   "dependencies": {
     "gatsby": "^2.20.12",
     "gatsby-image": "^2.3.1",
@@ -29,30 +55,5 @@
     "eslint-plugin-react": "^7.19.0",
     "gh-pages": "^2.2.0",
     "prettier": "^1.19.1"
-  },
-  "keywords": [
-    "portfolio",
-    "template",
-    "website",
-    "beautiful"
-  ],
-  "license": "CC-BY-NC-4.0",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "deploy": "./deploy.sh",
-    "format": "prettier --write \"**/*.{css,ts,tsx,js,jsx,json}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "lint": "eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sidvenu/show-off"
-  },
-  "bugs": {
-    "url": "https://github.com/sidvenu/show-off/issues"
   }
 }

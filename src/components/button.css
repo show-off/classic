@@ -11,8 +11,7 @@ a.button {
   background: var(--button-background-color);
   color: var(--button-text-color);
   padding: 15px;
-  outline: none;
-  border: 0px transparent solid;
+  border: 0 transparent solid;
   transition-duration: 1s;
   border-radius: 10px;
 }
