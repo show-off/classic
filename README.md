@@ -1,5 +1,7 @@
 ## Show Off
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d643f374ec4041cfab7f646664854b42)](https://app.codacy.com/gh/show-off/classic?utm_source=github.com&utm_medium=referral&utm_content=show-off/classic&utm_campaign=Badge_Grade_Dashboard)
+
 Beautiful-as-fuck website portfolio templates.
 
 # Show Off - Classic
